@@ -49,7 +49,7 @@ const TaskItem: React.FC<TaskItemProps> = ({ task, taskMode, setTaskMode }) => {
               ></div>
             </Grid>
             <Grid item xs>
-              <ListItemText primary={task.title} />
+              <ListItemText secondary={task.title} />
             </Grid>
             <Grid item marginLeft={25}>
               <IconButton
