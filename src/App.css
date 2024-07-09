@@ -1,0 +1,32 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  /* height: 100vh; */
+}
+
+.TaskFormWrapper{
+  width: 50%;
+  margin-top: 35px;
+}
+.TaskListWrapper{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Status{
+  width: 16px;
+  height: 15px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.DashBoard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
